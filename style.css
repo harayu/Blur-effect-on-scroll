@@ -1,0 +1,72 @@
+@charset "UTF-8";
+html, body {
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-size: 62.5%;
+	font-family: 'Vollkorn', "Hiragino Kaku Gothic ProN", serif;
+}
+*, *::before, *:after {
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+h1 {
+	/*text-rendering: optimizelegibili;*/
+	margin: 0;
+	font-size: 8rem;
+	color: #fff !important;
+}
+p {
+	font-size: 3rem;
+}
+header {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 100vh;
+	background: url(https://dl.dropboxusercontent.com/u/587895/images/autumn.jpg) no-repeat;
+	background-size: cover;
+}
+.hello {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+}
+hgroup {
+	display: inline-block;
+	text-align: center;
+	position: absolute;
+	width: 50%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 211px;
+	margin: auto;
+	color: #fff;
+	z-index: 2;
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: url(https://dl.dropboxusercontent.com/u/587895/images/autumn-blur.jpg) no-repeat;
+	background-size: cover;
+	z-index: 0;
+	opacity: 0;
+}
+.about {
+	width: 100%;
+	height: 100vh;
+	padding: 80px;
+	text-align: center;
+}
